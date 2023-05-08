@@ -1,0 +1,182 @@
+input{    
+background: url("images//assets//search-dark.png") top right     no-repeat;
+background-size: 20px 20px;
+background-position: right;
+height:30px;
+width: 300px;
+text-align: left;
+align-items: center;
+border-radius: 20px;
+border-style: solid;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+#container{
+    width: 920px;
+    margin-left: 90px;
+}
+.header{
+    width:inherit;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+#header-img{
+    background-color:lightseagreen;
+    height: 30px;
+}
+#cart-img{
+    height: 30px;
+}
+.top-nav{
+    margin-top: 20px;
+    font-family: sans-serif;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: inherit;
+    /* font-weight: normal; */
+}
+#dividor{
+    margin-top: 10px;
+    background-color: black;
+    height: 1px;
+}
+#content-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#arrow-img{
+    background-color:lightseagreen;
+    height: 30px; 
+}
+.tagline{
+    display:inline-flex; 
+    align-items: center;
+    margin-top: 10px;
+}
+.tagline #arrow-img{
+    margin-left: 10px;
+}
+
+.column{
+    background-color: lightseagreen;
+    font-family: sans-serif;
+    width:300px;
+    color: white;
+    height:220px;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#main-content{
+    display:inline-flex;
+    margin-bottom: 25px;
+}
+.succulent-pic, #succulent-img, .aloe-tagline{
+    width: 300px;
+    height: 245px;   
+}
+.succulent-pic:hover {
+    content: url("images//assets//succulents-2.jpg");
+    width: 300px;
+    height: 245px;  
+}
+
+.aloe-img{
+    height: 180px;
+    width: 290px;
+    background-color: white;
+    padding-left:10px;
+    padding-bottom: 10px;
+}
+
+.soothing-aloe{
+    display: inline-flex;
+    background-color: lightseagreen;
+    margin-left:10px;
+    font-family: sans-serif;
+    color: white;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    font-size: xx-large;
+}
+
+.plants{
+    display: inline-flex;
+    background-color: aquamarine;
+    width: 920px;
+    height: 170px;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: sans-serif;
+}
+.image-caption{
+    display: block;
+}
+
+.images{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#pop-up{
+    width: 700px;
+    position: fixed;
+    display: inline-flex;
+    bottom: 40px;
+    margin-left: 90px;
+    padding: 5px 14px;
+    align-items: center; 
+    background-color: white;
+    border-radius: 5px;
+    column-count: 3;
+    column-gap: 20px;
+    border-color:black;
+    border-style: solid;
+}
+
+#read{
+    color: black;
+    font-size:medium;
+}
+#read:link{
+    color: blue;
+    text-decoration: underline;
+    display: inline-flex;
+}
+.cookie-column{
+    width: 50px;
+    height: 50px;
+}
+#cookie{
+    width:50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.close{
+    width:60px;
+    background-color: lightskyblue;
+    box-shadow: 2px 5px;
+    font-family: sans-serif;
+}
+#cookie-header, #cookie-text{
+    text-align: left;
+    font-family: sans-serif;
+}
